@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\3rdParty\inc\SDL2\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>76</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'SDL_bool' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>SDL_PointInRect</FUNCTION>
+    <DECORATED>SDL_PointInRect</DECORATED>
+    <FUNCLINE>73</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+      <FILENAME>TextureManager.cpp</FILENAME>
+      <LINE>83</LINE>
+      <COLUMN>64</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'texture_format'.</DESCRIPTION>
+    <FUNCTION>TextureManager::RequestTexture</FUNCTION>
+    <DECORATED>?RequestTexture@TextureManager@@QEAAIPEBD_N@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'texture_format' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'surf-&gt;format-&gt;BytesPerPixel' ) resolves to the default case</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>79</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>79</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>80</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>79</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>79</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>82</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>83</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'texture_format' is an In/Out argument to 'glTexImage2D' (declared at c:\users\play\desktop\p\cg_project\cg 2019-2020\3rdparty\inc\glew\glew.h:1149)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>84</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>85</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>88</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+        <FILENAME>TextureManager.cpp</FILENAME>
+        <LINE>83</LINE>
+        <COLUMN>64</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'texture_format' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+      <FILENAME>TextureManager.cpp</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>59</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>TextureManager::RequestTexture</FUNCTION>
+    <DECORATED>?RequestTexture@TextureManager@@QEAAIPEBD_N@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+      <FILENAME>TextureManager.cpp</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>TextureManager::RequestTexture</FUNCTION>
+    <DECORATED>?RequestTexture@TextureManager@@QEAAIPEBD_N@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+      <FILENAME>TextureManager.cpp</FILENAME>
+      <LINE>80</LINE>
+      <COLUMN>170</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>TextureManager::RequestTexture</FUNCTION>
+    <DECORATED>?RequestTexture@TextureManager@@QEAAIPEBD_N@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+      <FILENAME>TextureManager.h</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'TextureManager::TextureContainer::textureID' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>TextureManager::TextureContainer::{ctor}</FUNCTION>
+    <DECORATED>??0TextureContainer@TextureManager@@QEAA@XZ</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>TextureManager::TextureContainer::textureID</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\</FILEPATH>
+      <FILENAME>TextureManager.h</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'TextureManager::TextureContainer::hasMipmaps' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>TextureManager::TextureContainer::{ctor}</FUNCTION>
+    <DECORATED>??0TextureContainer@TextureManager@@QEAA@XZ</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>TextureManager::TextureContainer::hasMipmaps</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

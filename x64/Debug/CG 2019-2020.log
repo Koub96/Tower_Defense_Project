@@ -1,0 +1,15 @@
+﻿  main.cpp
+C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\Pirate.h(36,41): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\Renderer.h(38,37): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+  CG 2019-2020.vcxproj -> C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\x64\Debug\CG 2019-2020.exe
+  Copying DLLs to output folder..
+  copy "C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\3rdParty\bin\x64\*.dll" "C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\x64\Debug\"
+  C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\3rdParty\bin\x64\glew32.dll
+  C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\3rdParty\bin\x64\libjpeg-9.dll
+  C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\3rdParty\bin\x64\libpng16-16.dll
+  C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\3rdParty\bin\x64\libtiff-5.dll
+  C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\3rdParty\bin\x64\libwebp-4.dll
+  C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\3rdParty\bin\x64\SDL2.dll
+  C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\3rdParty\bin\x64\SDL2_image.dll
+  C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\3rdParty\bin\x64\zlib1.dll
+          8 file(s) copied.

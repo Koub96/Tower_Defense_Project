@@ -1,0 +1,70 @@
+﻿  Object.cpp
+  Renderer.cpp
+C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\Pirate.h(36,41): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\Renderer.h(38,37): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\Renderer.cpp(356,23): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\Renderer.cpp(359,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\Renderer.cpp(372,21): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\Renderer.cpp(618,29): warning C4305: '=': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\Renderer.cpp(703,7): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\Renderer.cpp(779,7): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\Renderer.cpp(904,83): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\Renderer.cpp(959,84): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\Renderer.cpp(969,94): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\Renderer.cpp(981,110): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\Renderer.cpp(1219,140): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\Renderer.cpp(1224,140): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\Renderer.cpp(1229,140): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\Renderer.cpp(1234,140): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+  main.cpp
+C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\Pirate.h(36,41): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\CG 2019-2020\Renderer.h(38,37): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+  Generating code
+  11 of 1354 functions ( 0.8%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    15 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  CG 2019-2020.vcxproj -> C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\x64\Release\CG 2019-2020.exe
+  Copying DLLs to output folder..
+  copy "C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\3rdParty\bin\x64\*.dll" "C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\x64\Release\"
+  C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\3rdParty\bin\x64\glew32.dll
+  C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\3rdParty\bin\x64\libjpeg-9.dll
+  C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\3rdParty\bin\x64\libpng16-16.dll
+  C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\3rdParty\bin\x64\libtiff-5.dll
+  C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\3rdParty\bin\x64\libwebp-4.dll
+  C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\3rdParty\bin\x64\SDL2.dll
+  C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\3rdParty\bin\x64\SDL2_image.dll
+  C:\Users\Play\Desktop\P\CG_Project\CG 2019-2020\3rdParty\bin\x64\zlib1.dll
+          8 file(s) copied.
